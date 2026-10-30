@@ -1,0 +1,58 @@
+body {
+    background-image: url("../fotos.proj/fotopaginci.png");
+    background-size: 100% 100vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    margin: 0;
+
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    position: relative;
+    width: 600px;
+    min-height: 180px;
+    margin-top: -300px;
+}
+
+.quadrado-cinza {
+    background-color: gray;
+    border-radius: 12px;
+    width: 620px;
+    height: 320px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+
+    position: absolute;
+    top: 180px;
+    left: 15px;
+
+    z-index: 1;
+}
+.quadrado-laranja {
+    background-color: rgb(231, 168, 8);
+    border-radius: 12px;
+
+    width: 600px;
+    height: 310px;
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+
+    position: relative;
+    top: 4px;
+    left: 8px;
+
+    z-index: 2;
+}
+#resultado-consulta {
+    white-space: pre-line;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    white-space: pre-line;
+
+    padding-top: 30px;
+}

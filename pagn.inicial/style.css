@@ -1,0 +1,96 @@
+body{
+    background-image: url("../fotos.proj/fotopaginci.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    margin: 0;
+    
+    margin-bottom: 100px;
+}
+.titulo{
+    text-align: center;
+    color: rgb(235, 176, 27);
+    margin-top: 70px;
+    -webkit-text-stroke: 6px black;
+    font-family:'Baloo 2', sans-serif;
+    paint-order: stroke fill;
+    font-size: 30px;
+}
+.paragrafo{
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.4);
+}
+.foto{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
+.texto{
+    text-align: center;
+}
+.ft{
+   margin-left: -170px;
+} 
+img {
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: translateY(-10px);
+}
+html {
+    scroll-behavior: smooth;
+}
+.seta{
+    font-size: 50px;
+    margin-top: 50px;
+    animation: balancar 1s infinite ease-in-out;
+}
+.seta a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+@keyframes balancar {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+.duvidas h2{
+    text-align: center;
+    margin-top: 170px;
+    color: rgb(235, 176, 27);
+    -webkit-text-stroke: 6px black;
+    font-family:'Baloo 2', sans-serif;
+    paint-order: stroke fill;
+    font-size: 30px;
+}
+.perguntas{
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left
+}
+details {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.name{
+    text-align: center;
+}
